@@ -1,0 +1,181 @@
+@font-face {
+    font-family: 'prueba';
+    font-weight: 700;
+    font-style: italic;
+    src: url('../fonts/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons-halflings-regular.eot') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+
+.top-title{
+    background-color: #8A4C40 !important;
+    height: 30px !important;
+    text-align: center !important;
+    vertical-align: center !important;
+    color: white !important;
+    display: table;
+    width: 100% !important;
+}
+.top-title>span{
+  display: table-cell;
+  vertical-align: middle;
+  height: 30px;
+}
+.menu-aux{
+  background-color: lightgray !important;
+  height: 20px !important;
+  text-align: right;
+  padding-right: 100px;
+  font-size: 10px;
+  width: 100% !important;
+}
+
+body{
+  margin:0px !important;
+  color: gray;
+  font-family: 'PT Sans' !important;
+}
+a{
+  color: black important;
+}
+.top-header{
+    height: 170px !important;
+    border-bottom: solid 1px !important;
+}
+.content-left{
+  width: 50% !important;
+  float:left;
+}
+.content-left>img{
+  height: 400px !important;
+  text-align: center;
+}
+.content{
+  margin-left: 50px !important;
+  margin-right: 50px !important;
+}
+.margin{
+  margin-top: 30px ;
+}
+.look>h3{
+    background-color: lightgray !important;
+}
+.logo{
+  margin-top: 20px ;
+  margin-left: 5% !important;
+}
+.menu{
+  margin-top: 10px ;
+  margin-left: 5% !important;
+}
+.menu>a{
+  padding-right: 30px ;
+}
+.item-look{
+  padding: 20px !important;
+  text-align: center;
+  width: 21% !important;
+  float: left;
+}
+.item-look>h3{
+  color: #8A4C40 !important;
+}
+.item-look>img{
+  height: 200px !important;
+}
+.others{
+  text-align: left !important;
+}
+.btn-primary {
+  color: #ffffff;
+  background-color: #8A4C40;
+  border-color: rgba(0, 0, 0, 0.25);
+  padding: 10px;
+}
+.footer-top{
+  text-align: center;
+  background-color: lightgray !important;
+  height: 100px !important;
+  padding-top: 10px;
+}
+.details{
+    margin-left:70%;
+    margin-top: 20px;
+}
+footer{
+  bottom: 0px !important;
+}
+.details>h4{
+  margin-bottom: 0px !important;
+}
+.details>h3{
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  color: #8A4C40 !important;
+}
+.details>h5{
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+}
+.details>img{
+  border: solid 1px !important;
+}
+.talla{
+   width: 50px;
+   height: 50px;
+   background-color: gray;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   margin-right: 5px;
+   float: left;
+   margin-top: 5px;
+   display:table;
+}
+.talla>span{
+  display: table-cell;
+  height: 50px;
+  vertical-align: middle;
+}
+.tallas{
+  width: 275px;
+}
+.float-left{
+  width: 50%;
+  float: left;
+}
+.carrito{
+  margin-top: 40px;
+  text-align: right;
+  margin-right: 30px;
+  width: 45% !important;
+}
+.carrito>h4{
+  color: #8A4C40 !important;
+}
+
+.col-md-3{
+  width: 25%;
+  float: left;
+}
+.final{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 20px;
+}
+.col-md-3>p{
+  margin-top: 1px !important;
+  margin-bottom: 1px !important;
+  font-size: 12px;
+}
+input{
+  height: 30px;
+}
+.footer-icons{
+  height: 30px;
+  border-top: 1px solid !important;
+  text-align: center;
+  padding-top: 15px;
+}
+.talla.selected{
+   background-color: lightgray !important;
+}
